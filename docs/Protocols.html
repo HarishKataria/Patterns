@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Protocols  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="Protocols  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">Patterns Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">Patterns Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Protocols  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/Factory.html">Factory</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/Element.html">Element</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Element/SpecialCharacter.html">– SpecialCharacter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Element/RepeatType.html">– RepeatType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Element/CollectionStatergy.html">– CollectionStatergy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Element/Config.html">– Config</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Fragment.html">Fragment</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/RawRepresentable.html">RawRepresentable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:8Patterns2teoiSbAA12MatchChecker_p_SStF">~=(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/Fragmenter.html">Fragmenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols.html#/s:8Patterns13MatchBehaviorP">MatchBehavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MatchChecker.html">MatchChecker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MatchCollector.html">MatchCollector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MatchIterator.html">MatchIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Pattern.html">Pattern</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/RangeFinder.html">RangeFinder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Replacer.html">Replacer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Splitter.html">Splitter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SubstringFinder.html">SubstringFinder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/AndPattern.html">AndPattern</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Builder.html">Builder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/FragmentType.html">FragmentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/InversePattern.html">InversePattern</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/OrPattern.html">OrPattern</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Regex.html">Regex</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SearchConfig.html">SearchConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ValueWrapper.html">ValueWrapper</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:8Patterns10MatchCounta">MatchCount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:8Patterns13RangeFragmenta">RangeFragment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:8Patterns11StringRangea">StringRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:8Patterns18SubMatchIdentifiera">SubMatchIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:8Patterns17SubstringFragmenta">SubstringFragment</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Protocols</h1>
+            <p>The following protocols are available globally.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7PatternP"></a>
+                    <a name="//apple_ref/swift/Protocol/Pattern" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7PatternP">Pattern</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This framework&rsquo;s main protocol, Pattern, consolidates various aspects
+of a matcher. The protocol adds the ability to combine,
+via boolean-logic operators, sub-types for building even more complex
+matching bahaviors.</p>
+
+                        <a href="Protocols/Pattern.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Pattern</span><span class="p">:</span> <span class="kt"><a href="Protocols/MatchChecker.html">MatchChecker</a></span><span class="p">,</span>
+                         <span class="kt"><a href="Protocols/RangeFinder.html">RangeFinder</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/SubstringFinder.html">SubstringFinder</a></span><span class="p">,</span>
+                         <span class="kt"><a href="Protocols/MatchCollector.html">MatchCollector</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/MatchIterator.html">MatchIterator</a></span><span class="p">,</span>
+                         <span class="kt"><a href="Protocols/Fragmenter.html">Fragmenter</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/Splitter.html">Splitter</a></span><span class="p">,</span>
+                         <span class="kt"><a href="Protocols/Replacer.html">Replacer</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns12MatchCheckerP"></a>
+                    <a name="//apple_ref/swift/Protocol/MatchChecker" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns12MatchCheckerP">MatchChecker</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The simplest matcher &ndash; one that finds if the match exists or not</p>
+
+                        <a href="Protocols/MatchChecker.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">MatchChecker</span><span class="p">:</span> <span class="kt"><a href="Protocols.html#/s:8Patterns13MatchBehaviorP">MatchBehavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns15SubstringFinderP"></a>
+                    <a name="//apple_ref/swift/Protocol/SubstringFinder" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns15SubstringFinderP">SubstringFinder</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A utility variation of RangeFinder, that returns Substring value instead of range</p>
+
+                        <a href="Protocols/SubstringFinder.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">SubstringFinder</span><span class="p">:</span> <span class="kt"><a href="Protocols.html#/s:8Patterns13MatchBehaviorP">MatchBehavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns14MatchCollectorP"></a>
+                    <a name="//apple_ref/swift/Protocol/MatchCollector" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns14MatchCollectorP">MatchCollector</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Matcher that can find multiple match instances</p>
+
+                        <a href="Protocols/MatchCollector.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">MatchCollector</span><span class="p">:</span> <span class="kt"><a href="Protocols.html#/s:8Patterns13MatchBehaviorP">MatchBehavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns10FragmenterP"></a>
+                    <a name="//apple_ref/swift/Protocol/Fragmenter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns10FragmenterP">Fragmenter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A pattern type that can breakdown a string into matches, sub-matches,
+and unmatched fragments</p>
+
+                        <a href="Protocols/Fragmenter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Fragmenter</span><span class="p">:</span> <span class="kt"><a href="Protocols.html#/s:8Patterns13MatchBehaviorP">MatchBehavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns8SplitterP"></a>
+                    <a name="//apple_ref/swift/Protocol/Splitter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns8SplitterP">Splitter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Matcher that specializes in breaking string value into substring values</p>
+
+                        <a href="Protocols/Splitter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Splitter</span><span class="p">:</span> <span class="kt"><a href="Protocols.html#/s:8Patterns13MatchBehaviorP">MatchBehavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns8ReplacerP"></a>
+                    <a name="//apple_ref/swift/Protocol/Replacer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns8ReplacerP">Replacer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Matcher that can transform strings by replacing matched areas</p>
+
+                        <a href="Protocols/Replacer.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Replacer</span><span class="p">:</span> <span class="kt"><a href="Protocols.html#/s:8Patterns13MatchBehaviorP">MatchBehavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns13MatchIteratorP"></a>
+                    <a name="//apple_ref/swift/Protocol/MatchIterator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns13MatchIteratorP">MatchIterator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An iterator type to traverse the string fragments, both match and unmatched elements</p>
+
+                        <a href="Protocols/MatchIterator.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">MatchIterator</span><span class="p">:</span> <span class="kt"><a href="Protocols.html#/s:8Patterns13MatchBehaviorP">MatchBehavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns13MatchBehaviorP"></a>
+                    <a name="//apple_ref/swift/Protocol/MatchBehavior" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns13MatchBehaviorP">MatchBehavior</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Marker protocol for match behaviors</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">MatchBehavior</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns11RangeFinderP"></a>
+                    <a name="//apple_ref/swift/Protocol/RangeFinder" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns11RangeFinderP">RangeFinder</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The matcher that can find the location of the match</p>
+
+                        <a href="Protocols/RangeFinder.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">RangeFinder</span><span class="p">:</span> <span class="kt"><a href="Protocols.html#/s:8Patterns13MatchBehaviorP">MatchBehavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/harishkataria/Patterns" target="_blank" rel="external">Harish Kataria</a>. All rights reserved. (Last updated: 2018-03-05)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

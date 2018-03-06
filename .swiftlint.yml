@@ -1,0 +1,7 @@
+disabled_rules:
+- variable_name
+
+# parameterized rules can be customized from this configuration file
+line_length: 200
+
+reporter: "xcode" # reporter type (xcode, json, csv)

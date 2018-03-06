@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RepeatType Enumeration Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Enum/RepeatType" class="dashAnchor"></a>
+    <a title="RepeatType Enumeration Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html">Patterns Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html">Patterns Reference</a>
+        <img id="carat" src="../../img/carat.png" />
+        RepeatType Enumeration Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/Factory.html">Factory</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Enums/Element.html">Element</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/Element/SpecialCharacter.html">– SpecialCharacter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/Element/RepeatType.html">– RepeatType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/Element/CollectionStatergy.html">– CollectionStatergy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/Element/Config.html">– Config</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/Fragment.html">Fragment</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/RawRepresentable.html">RawRepresentable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Functions.html#/s:8Patterns2teoiSbAA12MatchChecker_p_SStF">~=(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Protocols/Fragmenter.html">Fragmenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols.html#/s:8Patterns13MatchBehaviorP">MatchBehavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/MatchChecker.html">MatchChecker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/MatchCollector.html">MatchCollector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/MatchIterator.html">MatchIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/Pattern.html">Pattern</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/RangeFinder.html">RangeFinder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/Replacer.html">Replacer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/Splitter.html">Splitter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/SubstringFinder.html">SubstringFinder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Structs/AndPattern.html">AndPattern</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Builder.html">Builder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/FragmentType.html">FragmentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/InversePattern.html">InversePattern</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/OrPattern.html">OrPattern</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Regex.html">Regex</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SearchConfig.html">SearchConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ValueWrapper.html">ValueWrapper</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:8Patterns10MatchCounta">MatchCount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:8Patterns13RangeFragmenta">RangeFragment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:8Patterns11StringRangea">StringRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:8Patterns18SubMatchIdentifiera">SubMatchIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:8Patterns17SubstringFragmenta">SubstringFragment</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>RepeatType</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">RepeatType</span></code></pre>
+
+                </div>
+              </div>
+            <p>Types of reating functions</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO10atMostOnceA2EmF"></a>
+                    <a name="//apple_ref/swift/Element/atMostOnce" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO10atMostOnceA2EmF">atMostOnce</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>At Most Once. Same as Regular Expression &lsquo;+&rsquo;.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">atMostOnce</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO11atLeastOnceA2EmF"></a>
+                    <a name="//apple_ref/swift/Element/atLeastOnce" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO11atLeastOnceA2EmF">atLeastOnce</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>At Least Once. Same as Regular Expression &lsquo;?&rsquo;</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">atLeastOnce</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO3anyA2EmF"></a>
+                    <a name="//apple_ref/swift/Element/any" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO3anyA2EmF">any</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Any number of times. Same as Regular Expression &lsquo;*&rsquo;</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">any</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO6atMostAESicAEmF"></a>
+                    <a name="//apple_ref/swift/Element/atMost" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO6atMostAESicAEmF">atMost</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>At most &lsquo;n&rsquo; times</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">atMost</span><span class="p">(</span><span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO7atLeastAESicAEmF"></a>
+                    <a name="//apple_ref/swift/Element/atLeast" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO7atLeastAESicAEmF">atLeast</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>At Least &lsquo;n&rsquo; times</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">atLeast</span><span class="p">(</span><span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO8extactlyAESicAEmF"></a>
+                    <a name="//apple_ref/swift/Element/extactly" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO8extactlyAESicAEmF">extactly</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>extactly &lsquo;n&rsquo; times</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">extactly</span><span class="p">(</span><span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO7betweenAESi_SitcAEmF"></a>
+                    <a name="//apple_ref/swift/Element/between" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO7betweenAESi_SitcAEmF">between</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>within a range of a minimum and a maximum count</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">between</span><span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO9oneOrNoneAeC18CollectionStatergyOcAEmF"></a>
+                    <a name="//apple_ref/swift/Element/oneOrNone" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO9oneOrNoneAeC18CollectionStatergyOcAEmF">oneOrNone</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>one or none times, driven by a collection statergy</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">oneOrNone</span><span class="p">(</span><span class="kt"><a href="../../Enums/Element/CollectionStatergy.html">CollectionStatergy</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO9oneOrMoreAeC18CollectionStatergyOcAEmF"></a>
+                    <a name="//apple_ref/swift/Element/oneOrMore" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO9oneOrMoreAeC18CollectionStatergyOcAEmF">oneOrMore</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>one or more times, driven by a collection statergy</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">oneOrMore</span><span class="p">(</span><span class="kt"><a href="../../Enums/Element/CollectionStatergy.html">CollectionStatergy</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO10zeroOrMoreAeC18CollectionStatergyOcAEmF"></a>
+                    <a name="//apple_ref/swift/Element/zeroOrMore" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO10zeroOrMoreAeC18CollectionStatergyOcAEmF">zeroOrMore</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>zero or more times, driven by a collection statergy</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">zeroOrMore</span><span class="p">(</span><span class="kt"><a href="../../Enums/Element/CollectionStatergy.html">CollectionStatergy</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO3maxAESi_AC18CollectionStatergyOtcAEmF"></a>
+                    <a name="//apple_ref/swift/Element/max" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO3maxAESi_AC18CollectionStatergyOtcAEmF">max</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>repeat at most &lsquo;n&rsquo; times, driven by a collection statergy</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">max</span><span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt"><a href="../../Enums/Element/CollectionStatergy.html">CollectionStatergy</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO3minAESi_AC18CollectionStatergyOtcAEmF"></a>
+                    <a name="//apple_ref/swift/Element/min" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO3minAESi_AC18CollectionStatergyOtcAEmF">min</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>repeat at least &lsquo;n&rsquo; times, driven by a collection statergy</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">min</span><span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt"><a href="../../Enums/Element/CollectionStatergy.html">CollectionStatergy</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO10RepeatTypeO6withinAESi_SiAC18CollectionStatergyOtcAEmF"></a>
+                    <a name="//apple_ref/swift/Element/within" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO10RepeatTypeO6withinAESi_SiAC18CollectionStatergyOtcAEmF">within</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>repeat between the range, driven by a collection statergy</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">within</span><span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Int</span><span class="p">,</span> <span class="kt"><a href="../../Enums/Element/CollectionStatergy.html">CollectionStatergy</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/harishkataria/Patterns" target="_blank" rel="external">Harish Kataria</a>. All rights reserved. (Last updated: 2018-03-05)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

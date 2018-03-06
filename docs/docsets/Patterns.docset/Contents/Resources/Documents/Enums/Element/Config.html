@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Config Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Config" class="dashAnchor"></a>
+    <a title="Config Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html">Patterns Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html">Patterns Reference</a>
+        <img id="carat" src="../../img/carat.png" />
+        Config Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/Factory.html">Factory</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Enums/Element.html">Element</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/Element/SpecialCharacter.html">– SpecialCharacter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/Element/RepeatType.html">– RepeatType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/Element/CollectionStatergy.html">– CollectionStatergy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/Element/Config.html">– Config</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/Fragment.html">Fragment</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/RawRepresentable.html">RawRepresentable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Functions.html#/s:8Patterns2teoiSbAA12MatchChecker_p_SStF">~=(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Protocols/Fragmenter.html">Fragmenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols.html#/s:8Patterns13MatchBehaviorP">MatchBehavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/MatchChecker.html">MatchChecker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/MatchCollector.html">MatchCollector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/MatchIterator.html">MatchIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/Pattern.html">Pattern</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/RangeFinder.html">RangeFinder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/Replacer.html">Replacer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/Splitter.html">Splitter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/SubstringFinder.html">SubstringFinder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Structs/AndPattern.html">AndPattern</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Builder.html">Builder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/FragmentType.html">FragmentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/InversePattern.html">InversePattern</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/OrPattern.html">OrPattern</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/Regex.html">Regex</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/SearchConfig.html">SearchConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ValueWrapper.html">ValueWrapper</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:8Patterns10MatchCounta">MatchCount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:8Patterns13RangeFragmenta">RangeFragment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:8Patterns11StringRangea">StringRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:8Patterns18SubMatchIdentifiera">SubMatchIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:8Patterns17SubstringFragmenta">SubstringFragment</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Config</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Config</span><span class="p">:</span> <span class="kt">OptionSet</span></code></pre>
+
+                </div>
+              </div>
+            <p>Settings used to configure the match behavior</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO6ConfigV9matchCaseAEvZ"></a>
+                    <a name="//apple_ref/swift/Variable/matchCase" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO6ConfigV9matchCaseAEvZ">matchCase</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>match characters of same case</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">matchCase</span>                 <span class="o">=</span> <span class="kt">Config</span><span class="p">(</span><span class="nv">type</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO6ConfigV17anchorsMatchLinesAEvZ"></a>
+                    <a name="//apple_ref/swift/Variable/anchorsMatchLines" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO6ConfigV17anchorsMatchLinesAEvZ">anchorsMatchLines</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>enables anchors to match boundaries on each line</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">anchorsMatchLines</span>         <span class="o">=</span> <span class="kt">Config</span><span class="p">(</span><span class="nv">type</span><span class="p">:</span> <span class="mi">1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO6ConfigV19anyIncudesLineCharsAEvZ"></a>
+                    <a name="//apple_ref/swift/Variable/anyIncudesLineChars" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO6ConfigV19anyIncudesLineCharsAEvZ">anyIncudesLineChars</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>&lsquo;any&rsquo; element incudes line characters</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">anyIncudesLineChars</span>       <span class="o">=</span> <span class="kt">Config</span><span class="p">(</span><span class="nv">type</span><span class="p">:</span> <span class="mi">2</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Patterns7ElementO6ConfigV20unicodeWordBoundriesAEvZ"></a>
+                    <a name="//apple_ref/swift/Variable/unicodeWordBoundries" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Patterns7ElementO6ConfigV20unicodeWordBoundriesAEvZ">unicodeWordBoundries</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>use unicode word boundries instead of ASCII</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">unicodeWordBoundries</span>      <span class="o">=</span> <span class="kt">Config</span><span class="p">(</span><span class="nv">type</span><span class="p">:</span> <span class="mi">3</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s16RawRepresentableP8rawValue0aD0Qzv"></a>
+                    <a name="//apple_ref/swift/Property/rawValue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s16RawRepresentableP8rawValue0aD0Qzv">rawValue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">rawValue</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s9OptionSetPx8RawValueQz03rawD0_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(rawValue:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s9OptionSetPx8RawValueQz03rawD0_tcfc">init(rawValue:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">rawValue</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/harishkataria/Patterns" target="_blank" rel="external">Harish Kataria</a>. All rights reserved. (Last updated: 2018-03-05)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
