@@ -1,5 +1,5 @@
-># **Patterns**
->##### Simplifying pattern building in Swift
+# **Patterns**
+##### Simplifying pattern building in Swift
 
 ---
 
