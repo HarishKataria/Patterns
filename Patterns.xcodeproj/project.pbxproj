@@ -131,6 +131,7 @@
 		B94CDA7F204DE063003F055F /* OrPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94CD9F7204DDF9F003F055F /* OrPattern.swift */; };
 		B94CDA80204DE063003F055F /* InversePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94CD9F8204DDF9F003F055F /* InversePattern.swift */; };
 		B94CDA81204DE063003F055F /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94CD9F9204DDF9F003F055F /* Array+Extension.swift */; };
+		B9716D95204F7D60002DB4E6 /* Install.md in Resources */ = {isa = PBXBuildFile; fileRef = B9716D94204F7D60002DB4E6 /* Install.md */; };
 		F8111E3919A95C8B0040E7D1 /* Patterns.h in Headers */ = {isa = PBXBuildFile; fileRef = F8111E3819A95C8B0040E7D1 /* Patterns.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F829C6B81A7A94F100A2CD59 /* Patterns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD67C0B1A5C55C900ED2280 /* Patterns.framework */; };
 /* End PBXBuildFile section */
@@ -199,6 +200,7 @@
 		B94CDA20204DDFFD003F055F /* WildCardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WildCardTests.swift; sourceTree = "<group>"; };
 		B94CDA21204DDFFD003F055F /* InverseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InverseTests.swift; sourceTree = "<group>"; };
 		B94CDA22204DDFFD003F055F /* WholeWordTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WholeWordTests.swift; sourceTree = "<group>"; };
+		B9716D94204F7D60002DB4E6 /* Install.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Install.md; path = Documentation/Install.md; sourceTree = "<group>"; };
 		E4202FE01B667AA100C997FB /* Patterns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Patterns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8111E3319A95C8B0040E7D1 /* Patterns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Patterns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8111E3719A95C8B0040E7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 		4CE292301EF4A386008DA555 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
+				B9716D94204F7D60002DB4E6 /* Install.md */,
 				4CE292311EF4A393008DA555 /* README.md */,
 				312D1E0B1FC2551400E51FF1 /* Usage.md */,
 			);
@@ -712,6 +715,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9716D95204F7D60002DB4E6 /* Install.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
