@@ -18,7 +18,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'harishkataria/Patterns', '~> 1.0'
+    pod 'Patterns', '~> 1.0'
 end
 ```
 
