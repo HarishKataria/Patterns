@@ -18,9 +18,9 @@ final class PrefixTests: XCTestCase {
     func testHasMatches() {
         let pattern = createPattern()
 
-        XCTAssertTrue(pattern.hasMatches(in:"abc"))
-        XCTAssertFalse(pattern.hasMatches(in:"abbc"))
-        XCTAssertFalse(pattern.hasMatches(in:"aabcc"))
+        XCTAssertTrue(pattern.hasMatches(in: "abc"))
+        XCTAssertFalse(pattern.hasMatches(in: "abbc"))
+        XCTAssertFalse(pattern.hasMatches(in: "aabcc"))
     }
 
     func testFirst() {
@@ -58,9 +58,9 @@ final class PrefixTests: XCTestCase {
     func testReplaceMatches() {
         let pattern = createPattern()
 
-        XCTAssertEqual(pattern.replaceMatches(in:"abc--", to: "--"), "----")
-        XCTAssertEqual(pattern.replaceMatches(in:"abc--", to: "-$0_$1-"), "-abc_---")
-        XCTAssertEqual(pattern.replaceMatches(in:"abc--", to: pattern.escape(template: "$0_$1")), "$0_$1--")
+        XCTAssertEqual(pattern.replaceMatches(in: "abc--", to: "--"), "----")
+        XCTAssertEqual(pattern.replaceMatches(in: "abc--", to: "-$0_$1-"), "-abc_---")
+        XCTAssertEqual(pattern.replaceMatches(in: "abc--", to: pattern.escape(template: "$0_$1")), "$0_$1--")
     }
 
     func testSplit() {

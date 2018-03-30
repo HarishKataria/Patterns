@@ -18,8 +18,8 @@ final class XCFilterTests: XCTestCase {
     func testHasMatches() {
         let pattern = createPattern()
 
-        XCTAssertTrue(pattern.hasMatches(in:"XCFilterTests"))
-        XCTAssertFalse(pattern.hasMatches(in:"cxscr"))
+        XCTAssertTrue(pattern.hasMatches(in: "XCFilterTests"))
+        XCTAssertFalse(pattern.hasMatches(in: "cxscr"))
     }
 
     func testFirst() {

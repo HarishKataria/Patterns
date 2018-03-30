@@ -18,8 +18,8 @@ final class WildCardTests: XCTestCase {
     func testHasMatches() {
         let pattern = createPattern()
 
-        XCTAssertTrue(pattern.hasMatches(in:"abbc"))
-        XCTAssertFalse(pattern.hasMatches(in:"ac"))
+        XCTAssertTrue(pattern.hasMatches(in: "abbc"))
+        XCTAssertFalse(pattern.hasMatches(in: "ac"))
     }
 
     func testFirst() {

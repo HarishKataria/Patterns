@@ -146,7 +146,9 @@ private extension Element {
         let value = patternString
         return weight > 1 ? "(?:\(value))" : value
     }
+}
 
+extension Element {
     var weight: Int {
         switch self {
         case .setConfig, .resetConfig:

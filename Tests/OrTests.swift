@@ -20,9 +20,9 @@ final class OrTests: XCTestCase {
     func testHasMatches() {
         let pattern = createPattern()
 
-        XCTAssertTrue(pattern.hasMatches(in:"--abbbbbc..xy"))
-        XCTAssertTrue(pattern.hasMatches(in:"eabcxycc"))
-        XCTAssertFalse(pattern.hasMatches(in:"abxzy"))
+        XCTAssertTrue(pattern.hasMatches(in: "--abbbbbc..xy"))
+        XCTAssertTrue(pattern.hasMatches(in: "eabcxycc"))
+        XCTAssertFalse(pattern.hasMatches(in: "abxzy"))
     }
 
     func testReplace() {

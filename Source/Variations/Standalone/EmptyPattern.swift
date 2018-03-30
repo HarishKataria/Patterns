@@ -48,7 +48,7 @@ struct EmptyPattern: Pattern {
 /**
  * A pattern that matches everything (inverse of EmptyPattern)
  */
-fileprivate struct AllPattern: Pattern {
+private struct AllPattern: Pattern {
     static var instance: Pattern = AllPattern()
 
     func locate(in target: String) -> StringRange? {

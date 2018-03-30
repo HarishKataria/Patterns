@@ -59,7 +59,7 @@ final class RegexTests: XCTestCase {
 
     func testSixFragments() {
         let input = "-abbc00abc"
-        let fragments = createPattern().fragments(of:input, configuredBy: SearchConfig(fragment: .all))
+        let fragments = createPattern().fragments(of: input, configuredBy: SearchConfig(fragment: .all))
 
         XCTAssertEqual(fragments.count, 6)
         XCTAssertEqual(fragments[0].dataString, "-")
@@ -101,7 +101,7 @@ final class RegexTests: XCTestCase {
 
     func testFourFragmentsMaxTwo() {
         let input = "aabbc00abcabdabbbc"
-        let fragments = createPattern().matches(in: input, configuredBy: SearchConfig(fragment:.allMatch, maxMatches: 2))
+        let fragments = createPattern().matches(in: input, configuredBy: SearchConfig(fragment: .allMatch, maxMatches: 2))
 
         XCTAssertEqual(fragments.count, 4)
         XCTAssertEqual(fragments[0].dataString, "abbc")

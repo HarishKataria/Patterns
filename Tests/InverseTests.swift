@@ -18,9 +18,9 @@ final class InverseTests: XCTestCase {
     func testHasMatches() {
         let pattern = createPattern()
 
-        XCTAssertFalse(pattern.hasMatches(in:"abbbbbc"))
-        XCTAssertTrue(pattern.hasMatches(in:"abxcc"))
-        XCTAssertTrue(pattern.hasMatches(in:"cabccc"))
+        XCTAssertFalse(pattern.hasMatches(in: "abbbbbc"))
+        XCTAssertTrue(pattern.hasMatches(in: "abxcc"))
+        XCTAssertTrue(pattern.hasMatches(in: "cabccc"))
     }
 
     func testReplace() {

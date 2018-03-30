@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Patterns'
-  s.version = '1.0.2'
+  s.version = '1.0.3'
   s.license = 'MIT'
   s.summary = 'Simplifying pattern building in Swift'
   s.homepage = 'https://github.com/harishkataria/Patterns'

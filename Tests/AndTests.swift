@@ -20,9 +20,9 @@ final class AndTests: XCTestCase {
     func testHasMatches() {
         let pattern = createPattern()
 
-        XCTAssertFalse(pattern.hasMatches(in:"--abbbbbc..xcy"))
-        XCTAssertFalse(pattern.hasMatches(in:"eabxyzcc"))
-        XCTAssertTrue(pattern.hasMatches(in:".865abbc2132xyz121"))
+        XCTAssertFalse(pattern.hasMatches(in: "--abbbbbc..xcy"))
+        XCTAssertFalse(pattern.hasMatches(in: "eabxyzcc"))
+        XCTAssertTrue(pattern.hasMatches(in: ".865abbc2132xyz121"))
     }
 
     func testReplace() {

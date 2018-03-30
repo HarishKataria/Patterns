@@ -18,8 +18,8 @@ final class TextTests: XCTestCase {
     func testText() {
         let pattern = createPattern()
 
-        XCTAssertTrue(pattern.hasMatches(in:"abc"))
-        XCTAssertFalse(pattern.hasMatches(in:"abbc"))
+        XCTAssertTrue(pattern.hasMatches(in: "abc"))
+        XCTAssertFalse(pattern.hasMatches(in: "abbc"))
     }
 
     func testFirst() {

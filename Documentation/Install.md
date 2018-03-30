@@ -53,11 +53,11 @@ The [Swift Package Manager](https://swift.org/package-manager/) is a tool for au
 
 Once you have your Swift package set up, adding Patterns as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
 
-#### Swift 4
+#### Swift 4+
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/harishkataria/Patterns.git", from: "1.0.2")
+    .package(url: "https://github.com/harishkataria/Patterns.git", from: "1.0.3")
 ]
 ```
 
