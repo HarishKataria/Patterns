@@ -51,3 +51,28 @@ let andPattern = pattern1.and(pattern2)
 let inversePattern = pattern1.inverse
 
 ```
+
+### Printing complex patterns in easy-to-read steps 
+
+```swift
+let expression = Factory.regex("<(?:(?:[^<>\"']+)|(?:\"[^\"]*\")|(?:'[^']*'))>")
+print(expression.steps)
+
+// prints
+//  1) Left angle bracket
+//  2) Match any one of:
+//      2.1) Match one or more times:
+//          2.1.1) Any character except left angle bracket, right angle bracket, double quotation mark or single quotation mark
+//      2.2) Match sequence:
+//          2.2.1) Double quotation mark
+//          2.2.2) Match any number of times:
+//              2.2.2.1) Any character except double quotation mark
+//          2.2.3) Double quotation mark
+//      2.3) Match sequence:
+//          2.3.1) Single quotation mark
+//      2.3.2) Match any number of times:
+//          2.3.2.1) Any character except single quotation mark
+//      2.3.3) Single quotation mark
+//  3) Right angle bracket
+
+```

@@ -19,6 +19,7 @@
 - [x] Gives developers the capability to use Boolean operators to combine simple patterns to form complex ones.
 - [x] Packages commonly used pattern types, including regular expressions, glob expressions, prefix matcher, suffice matcher, and everyone's favorite XCode's open-quickly command filter.
 - [x] Provides reusable base functionality (via protocol extensions) which can be leveraged to build your own custom pattern types.
+- [x] Facilitates describing complex patterns in easy-to-read steps
 
 ## Usage
 
