@@ -51,16 +51,7 @@ public struct ValueWrapper<ReferenceType: NSCopying & AnyObject> {
     }
 }
 
-extension ValueWrapper: Equatable {
-    /**
-     * equality driven by the underline object's extactly reference match
-     */
-    public static func == (lhs: ValueWrapper<ReferenceType>, rhs: ValueWrapper<ReferenceType>) -> Bool {
-        return lhs.template === rhs.template
-    }
-}
-
-extension ValueWrapper where ReferenceType: Equatable {
+extension ValueWrapper: Equatable where ReferenceType: Equatable {
     /**
      * equality driven by the underline object's equality operator
      */

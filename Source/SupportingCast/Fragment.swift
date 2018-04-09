@@ -39,7 +39,7 @@ public extension Fragment {
     }
 
     /** transform between fragment data into another type */
-    func map<X>(using block: (DataType) -> X) -> Fragment<X> {
+    func map<TargetDataType>(using block: (DataType) -> TargetDataType) -> Fragment<TargetDataType> {
         switch self {
         case .match(let data):
             return .match(block(data))

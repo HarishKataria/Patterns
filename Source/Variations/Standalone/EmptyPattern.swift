@@ -13,8 +13,6 @@ import Foundation
  * A pattern that matches nothing
  */
 struct EmptyPattern: Pattern {
-    static var instance: Pattern = EmptyPattern()
-
     func locate(in _: String) -> StringRange? {
         return nil
     }
@@ -33,7 +31,7 @@ struct EmptyPattern: Pattern {
     }
 
     var inverse: Pattern {
-        return AllPattern.instance
+        return AllPattern()
     }
 
     func and(_ other: Pattern) -> Pattern {
@@ -49,8 +47,6 @@ struct EmptyPattern: Pattern {
  * A pattern that matches everything (inverse of EmptyPattern)
  */
 private struct AllPattern: Pattern {
-    static var instance: Pattern = AllPattern()
-
     func locate(in target: String) -> StringRange? {
         return target.startIndex..<target.endIndex
     }
@@ -70,7 +66,7 @@ private struct AllPattern: Pattern {
     }
 
     var inverse: Pattern {
-        return EmptyPattern.instance
+        return EmptyPattern()
     }
 
     func and(_ other: Pattern) -> Pattern {

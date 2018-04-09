@@ -17,7 +17,7 @@ public extension Factory {
      * creates an empty matcher
      */
     static func empty() -> Pattern {
-        return EmptyPattern.instance
+        return EmptyPattern()
     }
 
     /**
