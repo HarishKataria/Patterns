@@ -55,7 +55,14 @@ let inversePattern = pattern1.inverse
 ### Printing complex patterns in easy-to-read steps 
 
 ```swift
-let expression = Factory.regex("<(?:(?:[^<>\"']+)|(?:\"[^\"]*\")|(?:'[^']*'))>")
+let expression: Element = [.char(in: "<"),
+                           .either([
+                                .repeating(.charNot(in: "<>\"'"), times: .atLeastOnce),
+                                [.quote, .repeating(.charNot(in: "\""), times: .any), .quote],
+                                [.apostrophe, .repeating(.charNot(in: "'"), times: .any), .apostrophe]
+                            ]),
+                           .char(in: ">")
+                          ]
 print(expression.steps)
 
 // prints
